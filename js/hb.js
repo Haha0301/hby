@@ -95,6 +95,12 @@
             image.style.animationDuration = spinDuration;
             leafDiv.appendChild(image);
             return leafDiv;
+            
+
+            image.onclick = function () {
+                console.log(1)
+            }
+
         }
         init();
     }
